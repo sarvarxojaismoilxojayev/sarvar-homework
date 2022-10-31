@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(22, 116, 170);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  gap: 5px;
+}
+
+.barmoq1 {
+  width: 60px;
+  height: 180px;
+  background: white;
+  border-radius: 20px;
+  -webkit-animation-name: barmoq1;
+          animation-name: barmoq1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: ease;
+          animation-direction: ease;
+}
+
+@-webkit-keyframes barmoq1 {
+  0% {
+    margin-top: 15px;
+    transform: rotateX(40deg);
+  }
+}
+
+@keyframes barmoq1 {
+  0% {
+    margin-top: 15px;
+    transform: rotateX(40deg);
+  }
+}
+.content2 {
+  width: 60px;
+  height: 230px;
+  margin-top: -10px;
+  background: white;
+  border-radius: 20px;
+  -webkit-animation-name: barmoq2;
+          animation-name: barmoq2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: ease;
+          animation-direction: ease;
+}
+
+@-webkit-keyframes barmoq2 {
+  0% {
+    margin-top: 15px;
+    transform: rotateX(40deg);
+  }
+}
+
+@keyframes barmoq2 {
+  0% {
+    margin-top: 15px;
+    transform: rotateX(40deg);
+  }
+}
+.content3 {
+  width: 60px;
+  height: 270px;
+  margin-top: -32px;
+  background: white;
+  border-radius: 20px;
+  -webkit-animation-name: barmoq3;
+          animation-name: barmoq3;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: ease;
+          animation-direction: ease;
+}
+
+@-webkit-keyframes barmoq3 {
+  0% {
+    margin-top: 15px;
+    transform: rotateX(40deg);
+  }
+}
+
+@keyframes barmoq3 {
+  0% {
+    margin-top: 15px;
+    transform: rotateX(40deg);
+  }
+}
+.content4 {
+  width: 60px;
+  height: 220px;
+  margin-top: 0px;
+  background: white;
+  border-radius: 20px;
+  -webkit-animation-name: barmoq4;
+          animation-name: barmoq4;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 3.3s;
+          animation-delay: 3.3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: ease;
+          animation-direction: ease;
+}
+
+@-webkit-keyframes barmoq4 {
+  0% {
+    margin-top: 15px;
+    transform: rotateX(40deg);
+  }
+}
+
+@keyframes barmoq4 {
+  0% {
+    margin-top: 15px;
+    transform: rotateX(40deg);
+  }
+}
+.content6 {
+  width: 150px;
+  background: white;
+  height: 70px;
+  border-radius: 0px 20px 50px 0px;
+  margin-top: 90px;
+  -webkit-animation-name: barmoq5;
+          animation-name: barmoq5;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: ease;
+          animation-direction: ease;
+}
+
+@-webkit-keyframes barmoq5 {
+  0% {
+    transform: rotateX(40deg);
+  }
+}
+
+@keyframes barmoq5 {
+  0% {
+    transform: rotateX(40deg);
+  }
+}
+.barmoq3 {
+  background: rgb(22, 116, 170);
+  width: 300px;
+  height: 300px;
+}/*# sourceMappingURL=main.css.map */
